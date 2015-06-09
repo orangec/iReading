@@ -1,0 +1,388 @@
+	
+html, body {
+	height: 100%; 
+	width: 100%; 
+	margin: 0 auto; 
+	background-color: #e8e9e8;
+	font-family: arial, Microsoft JhengHei;
+}
+
+#header {
+	margin: 30px auto;
+	max-width: 1000px;
+	width: 85%;
+	min-width: 530px;
+	height: 220px;
+	background-color: #ffffff;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #cccccc;
+	position: relative;
+}
+
+#header > img {
+	max-width: 200px;
+    max-height: 100%;
+    width: auto;
+    height: auto;
+    float: left;
+}
+
+/**************** 書目簡介 ****************/
+#book_intro {
+	max-width: 650px;
+	width: 65%;
+	height: 100%;
+	float: left;
+	background-color: #ffffff;
+}
+
+#book_intro .text {
+	height: 90%;
+	width: 100%;
+	padding-left: 3%;
+	overflow-x:hidden;
+	overflow-y:hidden;
+	background-color: #ffffff;
+	font-family: MingLiU;
+}
+
+#book_intro .text h3 {
+	color: #939393;
+	font-size: 1em;
+}
+
+#book_intro p {
+	color: #444444;
+	font-size: 0.86em;
+}
+
+#book_intro .menu {
+	height: 10%;
+	float: right;
+	overflow: hidden;
+}
+
+#book_intro .menu ul,
+#book_intro .menu ul li,
+#book_intro .menu ul li a {
+	margin: 0px 5px 0px;
+	padding: 0px 1px 0px;
+	border: 0;
+	list-style: none;
+}
+
+#book_intro .menu ul li {
+	float: left;
+	display: block;
+	background-color: #cdcdcd;
+	z-index: 1;
+}
+
+#book_intro .menu ul li a {
+  display: block;
+  padding: 4px 10px;
+  text-decoration: none;
+  font-size: 0.73em;
+  color: #ffffff;
+  z-index: 3;
+}
+
+#book_intro .menu ul li a:hover {
+  color: #6a6a6a;
+}
+
+
+/**************** 等待清單 ****************/
+
+@media screen and (min-width: 1000px ) {
+	#waiting_queue {
+		width: 150px;
+	    height: 100%;;
+		background-color: #6e6e6e;
+		float: right;
+		overflow: hidden;
+		position: relative;
+	}
+	#waiting_queue h3 {
+		margin: 25px 0px 0px 0px;
+		height: 45px;
+		color: #ffffff;
+		font-size: 1em;
+		text-align: center;
+	}
+
+	#waiting_queue img {
+		max-height: 50px; 
+		width: auto;
+		height: auto;
+		float: left;
+	}
+}
+
+@media screen and ( max-width: 1000px ) {
+	#waiting_queue {
+		margin-top: 20px;
+		max-width: 1000px;
+		width: 100%;
+		min-width: 480px;
+		height: 50px;
+		background-color: #6e6e6e;
+		float: right;
+		position: relative;
+	}
+	#waiting_queue h3 {
+		width: 80px;
+		height: 50px;
+		color: #ffffff;
+		font-size: 1em;
+		text-align: center;
+		float: left;
+	}
+	#waiting_queue img {
+		max-height: 50px; 
+		width: auto;
+		height: auto;
+		float: left;
+	}
+	#waiting_queue div {
+		float: right;
+		overflow-x:auto;
+		overflow-y:hidden;
+	}
+}
+
+#content {
+	max-width: 1000px;
+	width: 85%;
+	min-width: 530px;
+	height: 220px;
+	position: relative;
+}
+@media screen and (min-width: 1000px ) {
+	#content {
+		margin: 30px auto;
+	}
+}
+@media screen and ( max-width: 1000px ) {
+	#content {
+		margin: 80px auto;
+	}
+}
+
+/**************** 此書目的紀錄 / 問與答 ****************/
+
+#misc_menu
+{
+	margin: 15px 0px;
+	width: 100%;
+	height: 18px;
+	display: block;
+}
+
+#misc_menu img {
+	margin: 0;
+	padding-right: 5px;
+	max-height: 100%; 
+	width: auto;
+	height: auto;
+	float: left;
+}
+
+#misc_menu p {
+	margin: 0;
+	padding-left: 5px;
+	max-height: 100%;
+	font-size: 0.85em;
+	color: #505050; 
+	float: left;
+}
+
+#misc_menu a {
+	color: #505050; 
+	text-decoration: none;
+}
+#misc_menu a:hover {
+	background-color: #cccccc;
+	padding: 1px 5px;
+}
+
+/**************** 漂書項目 ****************/
+#drift_book {
+	margin: 10px auto;
+	width: 490px;
+	height: 120px;
+	float: left;
+	position: relative;
+	display: block;
+}
+
+#drift_book>img{
+	width: 51px;
+	height: 120px;
+	position: absolute;
+	left: 15px;
+	z-index: 2;
+}
+
+#drift_book .container{
+	width: 465px;
+	height: 92px;
+	position: absolute;
+	top: 16px;
+	background-color: #ffffff;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #cccccc;
+	z-index: 1;
+}
+
+#drift_book .owner_image img{
+	max-height: 100%; 
+	width: auto;
+	height: auto;
+	position: absolute;
+	left: 66px;
+	float: left;
+}
+
+
+#drift_book .attr{
+	width: 46px;
+	height: 100%;
+	float: left;
+	position: absolute;
+	left: 158px;
+}
+
+
+#drift_book .attr>a>div {
+	width: 100%;
+	height: 50%;
+	display: block;
+	background-color: #85a5c3;
+	text-align: center;
+	padding: 15px 12px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+#drift_book .attr>a>div:hover {
+	background-color: #73bdea;
+}
+
+#drift_book .attr>a{
+	font-size: 1em;
+	color: #ffffff;
+	text-decoration: none;
+}
+
+#drift_book .attr img{
+	width: 100%;
+	height: 50%;
+}
+
+
+#drift_book .owner_info{
+	width: 200px;
+	height: 100%;
+	float: left;
+	position: absolute;
+	left: 215px;
+	text-align: left;
+}
+
+#drift_book .owner_info h3 {
+	margin: 20px auto;
+	color: #3a3a3a;
+	font-size: 1.3em;
+}
+
+#drift_book .owner_info h5 {
+	margin: 10px auto;
+	color: #6f6f6f;
+	font-size: 0.6em;
+}
+
+#drift_book .owner_info a{
+	color: inherit;
+	text-decoration: underline;
+}
+
+#drift_book .owner_info a:hover {
+    background-color: #cccccc;
+    text-decoration: none;
+}
+
+
+#drift_book .action_button {
+	width: 60px;
+	height: 100%;
+	float: right;
+	display: block;
+}
+
+#drift_book .action_button>a>div {
+	width: 100%;
+	height: 100%;
+	padding-top: 18px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+#drift_book.open .action_button>a>div {
+	background-color: #f5809b;
+}
+#drift_book.open .action_button>a>div:hover {
+    background-color: #e16383;
+}
+#drift_book.open .action_button>a>div:active {
+	border-style: solid;
+    border-width: 1px;
+    border-color: #a12f46;
+}
+
+#drift_book.reading .action_button>a>div,
+#drift_book.deliver .action_button>a>div,
+#drift_book.apply .action_button>a>div {
+	background-color: #8b8b8b;
+}
+
+#drift_book.reading .action_button>a>div:hover,
+#drift_book.deliver .action_button>a>div:hover,
+#drift_book.apply .action_button>a>div:hover {
+    background-color: #5e5e5e;
+}
+#drift_book.reading .action_button>a>div:active,
+#drift_book.deliver .action_button>a>div:active,
+#drift_book.apply .action_button>a>div:active {
+	border-style: solid;
+    border-width: 1px;
+    border-color: #494949;
+}
+
+#drift_book .action_button>a {
+	color: #ffffff;
+	text-decoration: none;
+	text-align: center;
+	font-size: 1.1em;
+	font-style: bold;
+	line-height: 180%;
+}
+
+/**************** FB留言 ****************/
+#fb_message
+{
+	margin: 50px auto;
+	width: 100%;
+	min-width: 530px;
+	height: 220px;
+	border-width: 2px;
+	border-style: dashed;
+	border-color: #cccccc;
+	float: left;
+}
+
+
