@@ -33,11 +33,14 @@ html, body {
     width: 50%;
     max-width: 250px;
     padding-left: 5px;
-    line-height: 30px;
+    //line-height: 30px;
+    height: 2.25em;
     border: 1px;
     border-style: solid;
     border-color: #cccccc;
     float: left;
+    -webkit-border-radius: 0px;
+    border-radius: 0;
 }
 
 #top_menu input[type="text"]:focus {
@@ -51,6 +54,11 @@ html, body {
 	background:transparent;
 	padding: 0;
 	float: left;
+}
+
+#top_menu button::-moz-focus-inner {
+    padding: 0;
+    border: 0
 }
 
 #top_menu .right {
@@ -96,6 +104,7 @@ html, body {
     width: auto;
     height: auto;
     position: absolute;
+    left: 0px;
     z-index: 10;
 }
 
