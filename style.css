@@ -10,7 +10,7 @@ html, body {
 /**************** 最上面橫式 menu ****************/
 #top_menu {
 	width: 100%;
-	height: 55px;
+	height: 60px;
 	background-color: #ffffff;
 }
 
@@ -18,7 +18,7 @@ html, body {
 	width: 50%;
 	height: 34px;
 	margin-left: 10px;
-	margin-top: 10px;
+	margin-top: 15px;
 	float: left; 
 }
 
@@ -33,7 +33,7 @@ html, body {
 	height: 100%;
     width: 50%;
     max-width: 250px;
-    padding-left: 2px;
+    padding-left: 5px;
     line-height: 28px;
     float: left;
 }
@@ -51,7 +51,7 @@ html, body {
 	width: 190px;
 	height: 34px;
 	margin-right: 15px;
-	margin-top: 10px;
+	margin-top: 15px;
 	float: right; 
 }
 
