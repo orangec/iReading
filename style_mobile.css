@@ -63,13 +63,14 @@ html, body {
 	height: auto;
 	position: absolute;
 	top: 120px;
+	left: 0px;
 }
 
 #book_intro .menu ul,
 #book_intro .menu ul li,
 #book_intro .menu ul li a {
 	margin-top: 8px ;
-	padding: 0px 1px 0px;
+	padding: 0;
 	border: 0;
 	list-style: none;
 }
@@ -257,13 +258,13 @@ html, body {
 #drift_book .owner_info h3 {
 	margin: 1px auto;
 	color: #3a3a3a;
-	font-size: 0.3em;
+	font-size: 0.5em;
 }
 
 #drift_book .owner_info h5 {
 	margin: 1px auto;
 	color: #6f6f6f;
-	font-size: 0.1em;
+	font-size: 0.3em;
 }
 
 #drift_book .owner_info a{
