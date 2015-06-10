@@ -40,7 +40,7 @@ html, body {
     border-style: solid;
     border-color: #cccccc;
     float: left;
-    -webkit-border-radius: 0px;
+    -webkit-appearance: none;
     border-radius: 0;
 }
 
