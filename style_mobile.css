@@ -68,7 +68,7 @@ html, body {
 #book_intro .menu ul,
 #book_intro .menu ul li,
 #book_intro .menu ul li a {
-	margin-top: 10px ;
+	margin-top: 8px ;
 	padding: 0px 1px 0px;
 	border: 0;
 	list-style: none;
@@ -85,24 +85,24 @@ html, body {
 	font-size: 0.1em;
 	color: #ffffff;
 }
-
+/*
 #book_intro .menu ul li a:hover {
   color: #6a6a6a;
 }
-
+*/
 
 /**************** 等待清單 ****************/
 #waiting_queue {
 	margin-top: 10px;
 	width: 100%;
-	height: 23px;
+	height: 20px;
 	background-color: #6e6e6e;
 	float: right;
 	position: relative;
 }
 #waiting_queue p {
-	margin-top: 5px;
-	width: 60px;
+	margin-top: 2px;
+	width: 50px;
 	height: 20px;
 	color: #ffffff;
 	font-size: 0.1em;
@@ -110,7 +110,7 @@ html, body {
 	float: left;
 }
 #waiting_queue img {
-	max-height: 23px; 
+	max-height: 20px; 
 	width: auto;
 	height: auto;
 	float: left;
@@ -161,16 +161,18 @@ html, body {
 	color: #505050; 
 	text-decoration: none;
 }
+/*
 #misc_menu a:hover {
 	background-color: #cccccc;
 	padding: 1px 5px;
 }
+*/
 
 /**************** 漂書項目 ****************/
 #drift_book {
 	margin: 10px auto;
-	width: 320px;
-	height: 120px;
+	width: 100%;
+	height: 60px;
 	float: left;
 	position: relative;
 	display: block;
@@ -180,15 +182,15 @@ html, body {
 	height: 60px;
 	width: auto;
 	position: absolute;
-	left: 15px;
+	left: 0px;
 	z-index: 2;
 }
 
 #drift_book .container{
 	width: 100%;
-	height: 92px;
+	height: 50px;
 	position: absolute;
-	top: 16px;
+	top: 8px;
 	background-color: #ffffff;
 	border-style: solid;
 	border-width: 1px;
@@ -201,17 +203,17 @@ html, body {
 	width: auto;
 	height: auto;
 	position: absolute;
-	left: 66px;
+	left: 20px;
 	float: left;
 }
 
 
 #drift_book .attr{
-	width: 46px;
+	width: 22px;
 	height: 100%;
 	float: left;
 	position: absolute;
-	left: 158px;
+	left: 70px;
 }
 
 
@@ -221,18 +223,18 @@ html, body {
 	display: block;
 	background-color: #85a5c3;
 	text-align: center;
-	padding: 15px 12px;
+	padding: 5px 1px;
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
 }
-
+/*
 #drift_book .attr>a>div:hover {
 	background-color: #73bdea;
 }
-
+*/
 #drift_book .attr>a{
-	font-size: 1em;
+	font-size: 0.3em;
 	color: #ffffff;
 	text-decoration: none;
 }
@@ -244,39 +246,39 @@ html, body {
 
 
 #drift_book .owner_info{
-	width: 200px;
+	width: 120px;
 	height: 100%;
 	float: left;
 	position: absolute;
-	left: 215px;
+	left: 94px;
 	text-align: left;
 }
 
 #drift_book .owner_info h3 {
-	margin: 20px auto;
+	margin: 1px auto;
 	color: #3a3a3a;
-	font-size: 1.3em;
+	font-size: 0.3em;
 }
 
 #drift_book .owner_info h5 {
-	margin: 10px auto;
+	margin: 1px auto;
 	color: #6f6f6f;
-	font-size: 0.6em;
+	font-size: 0.1em;
 }
 
 #drift_book .owner_info a{
 	color: inherit;
 	text-decoration: underline;
 }
-
+/*
 #drift_book .owner_info a:hover {
     background-color: #cccccc;
     text-decoration: none;
 }
-
+*/
 
 #drift_book .action_button {
-	width: 60px;
+	width: 30px;
 	height: 100%;
 	float: right;
 	display: block;
@@ -285,7 +287,7 @@ html, body {
 #drift_book .action_button>a>div {
 	width: 100%;
 	height: 100%;
-	padding-top: 18px;
+	padding-top: 10px;
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
@@ -294,9 +296,11 @@ html, body {
 #drift_book.open .action_button>a>div {
 	background-color: #f5809b;
 }
+/*
 #drift_book.open .action_button>a>div:hover {
     background-color: #e16383;
 }
+*/
 #drift_book.open .action_button>a>div:active {
 	border-style: solid;
     border-width: 1px;
@@ -308,12 +312,13 @@ html, body {
 #drift_book.apply .action_button>a>div {
 	background-color: #8b8b8b;
 }
-
+/*
 #drift_book.reading .action_button>a>div:hover,
 #drift_book.deliver .action_button>a>div:hover,
 #drift_book.apply .action_button>a>div:hover {
     background-color: #5e5e5e;
 }
+*/
 #drift_book.reading .action_button>a>div:active,
 #drift_book.deliver .action_button>a>div:active,
 #drift_book.apply .action_button>a>div:active {
@@ -326,9 +331,9 @@ html, body {
 	color: #ffffff;
 	text-decoration: none;
 	text-align: center;
-	font-size: 1.1em;
+	font-size: 0.3em;
 	font-style: bold;
-	line-height: 180%;
+	line-height: 150%;
 }
 
 /**************** FB留言 ****************/
@@ -336,7 +341,6 @@ html, body {
 {
 	margin: 50px auto;
 	width: 100%;
-	min-width: 530px;
 	height: 220px;
 	border-width: 2px;
 	border-style: dashed;
